@@ -55,6 +55,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: opacity .8s;
 }
 
 .trailer-container video{
@@ -65,6 +67,7 @@ p{
 
 .active.trailer-container{
     visibility: hidden;
+    opacity: 0;
 }
 
 .close-icon{
