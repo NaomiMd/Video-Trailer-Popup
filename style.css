@@ -63,6 +63,10 @@ p{
     outline: none;
 }
 
+.active.trailer-container{
+    visibility: hidden;
+}
+
 .close-icon{
     position: absolute;
     top: 30px;
