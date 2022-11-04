@@ -63,6 +63,14 @@ p{
     outline: none;
 }
 
+.close-icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 991px) {
     .trailer-container video{
         max-width: 90%;
